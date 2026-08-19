@@ -1,0 +1,11 @@
+# 字节码缓存
+__pycache__/
+*.pyc
+
+# 虚拟环境
+.venv/
+venv/
+
+# VSCode 本地配置（可选忽略）
+.vscode/
+.DS_Store
