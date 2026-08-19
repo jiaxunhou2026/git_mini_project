@@ -13,6 +13,9 @@ def div(a, b):
         return "Error: 除数不能为零"
     return a / b
 
+def power(a, b):
+    return a ** b   # meixiewan
+
 if __name__ == "__main__":
     #print("=== 计算器 ===")
     print("=== Super Calculator ===")
@@ -20,3 +23,4 @@ if __name__ == "__main__":
     print(f"5 - 1 = {sub(5, 1)}")
     print(f"3 * 4 = {mul(3, 4)}")
     print(f"10 / 2 = {div(10, 2)}")
+    print(f"2**5 = {power(2,5)}")
